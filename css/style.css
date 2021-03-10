@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* img{
+    width: 30%;
+    height: auto;
+    margin-right: 5px;
+} */
+.header {
+    height: 450px;
+    background-image: url('../img/head.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-success {
+    background-color: springgreen;
+    width: 320px;
+    height: 250px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.header-success p{
+    color: #fff;
+    font-size: 16px;
+}
+.header-success h1{
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.header-success h5{
+    padding: 15px 0;
+}
+button{
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: #ccc;
+}
+.col {
+    width: 30%;
+    height: 200px;
+    /* background-color: red; */
+    margin-right: 5px;
+}
+/* About section */
+.about-section{
+    height: 450px;
+    background-color: #1661BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.about-section p{
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 40px;
+    line-height: 1.3; 
+    border-left: 5px solid springgreen;
+}
+.author{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid springgreen;    
+}
+/* Work-section */
+.work-section {
+    background: springgreen;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+}
+.work-section h1{
+    padding-top: 30px;
+}
+.work-section-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.work-section-img1{
+    background-image: url('../img/Computer11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work-section-img2{
+    background-image: url('../img/computer2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work-section-img3{
+    background-image: url('../img/laptop-1209008__340.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Section-innovation */
+.section-innovation{
+    background: #1661BE;
+    height: 600px;
+    padding-bottom: 20px;
+}
+.innovation-partition{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 200px;
+}
+.partition1{
+    width: 40%;
+}
+.partition1 h1{
+    font-size: 45px;
+    color: #fff;
+}
+.partition1 p{
+    color: #fff;
+    padding-top: 5px;
+}
+.partition2{
+    width: 25%;
+    height: 350px;
+    padding-bottom: 30px;
+    background-image: url('../img/Computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:600px){
+    .about-section p{
+        width: 100%;   
+        font-size: 30x;
+        padding: 0 20px;
+        border-left: none;
+    }
+    .work-section p {
+        padding: 0 10px;        
+    }
+    .work-section h1{
+        padding-bottom: 10px;
+    }
+    .col{
+        width: 100%;
+    }
+    .work-section-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-innovation{
+        background: #1661BE;
+        height: 1000px;
+        padding-bottom: 20px;
+    }
+    .innovation-partition{
+        display: flex;
+        flex-direction: column;
+        padding-top: 600px;
+    }
+    .partition1{
+        width: 100%;
+        padding: 40px 30px;
+    }
+    .partition2{
+        width: 100%;
+    }
+    
+    
+    
+}
